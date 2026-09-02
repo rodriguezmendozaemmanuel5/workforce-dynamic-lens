@@ -1,0 +1,32 @@
+{
+  "MEX": {
+    "country_name": "México",
+    "currency_code": "MXN",
+    "fx_rate_to_usd": 0.058,
+    "annual_multiplier": 12
+  },
+  "COL": {
+    "country_name": "Colombia",
+    "currency_code": "COP",
+    "fx_rate_to_usd": 0.00025,
+    "annual_multiplier": 12
+  },
+  "BRA": {
+    "country_name": "Brasil",
+    "currency_code": "BRL",
+    "fx_rate_to_usd": 0.18,
+    "annual_multiplier": 12
+  },
+  "ESP": {
+    "country_name": "España",
+    "currency_code": "EUR",
+    "fx_rate_to_usd": 1.08,
+    "annual_multiplier": 12
+  },
+  "DEU": {
+    "country_name": "Alemania",
+    "currency_code": "EUR",
+    "fx_rate_to_usd": 1.08,
+    "annual_multiplier": 12
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "department_id": "DEP_RD",
+    "department_name": "Investigación y Desarrollo",
+    "cost_center_code": "CC-1001",
+    "vp_responsible": "Dr. Aris Thorne",
+    "region": "Global",
+    "budget_annual_usd": 18500000.00,
+    "target_headcount": 850,
+    "strategic_level": "Core Revenue"
+  },
+  {
+    "department_id": "DEP_ENG",
+    "department_name": "Ingeniería Biomédica y Software",
+    "cost_center_code": "CC-1002",
+    "vp_responsible": "Elena Rostova",
+    "region": "Global",
+    "budget_annual_usd": 24000000.00,
+    "target_headcount": 1100,
+    "strategic_level": "Core Revenue"
+  },
+  {
+    "department_id": "DEP_CLINICAL",
+    "department_name": "Operaciones Clínicas y Soporte",
+    "cost_center_code": "CC-2001",
+    "vp_responsible": "Carlos Mendoza",
+    "region": "LATAM",
+    "budget_annual_usd": 12000000.00,
+    "target_headcount": 950,
+    "strategic_level": "Operation Critical"
+  },
+  {
+    "department_id": "DEP_SALES",
+    "department_name": "Ventas y Expansión Comercial",
+    "cost_center_code": "CC-3001",
+    "vp_responsible": "Sarah Jenkins",
+    "region": "Europa",
+    "budget_annual_usd": 16000000.00,
+    "target_headcount": 750,
+    "strategic_level": "Core Revenue"
+  },
+  {
+    "department_id": "DEP_HR",
+    "department_name": "Talento Humano y Cultura",
+    "cost_center_code": "CC-4001",
+    "vp_responsible": "Beatriz Silva",
+    "region": "Global",
+    "budget_annual_usd": 5500000.00,
+    "target_headcount": 250,
+    "strategic_level": "Support"
+  },
+  {
+    "department_id": "DEP_FINANCE",
+    "department_name": "Finanzas y Contabilidad",
+    "cost_center_code": "CC-5001",
+    "vp_responsible": "Marcus Vance",
+    "region": "Global",
+    "budget_annual_usd": 4800000.00,
+    "target_headcount": 200,
+    "strategic_level": "Support"
+  },
+  {
+    "department_id": "DEP_OPS",
+    "department_name": "Cadena de Suministro y Logística",
+    "cost_center_code": "CC-6001",
+    "vp_responsible": "Klaus Lindner",
+    "region": "Europa",
+    "budget_annual_usd": 9500000.00,
+    "target_headcount": 400,
+    "strategic_level": "Operation Critical"
+  }
+]

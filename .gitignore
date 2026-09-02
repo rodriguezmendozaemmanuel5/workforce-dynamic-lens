@@ -1,0 +1,35 @@
+# Environments & Virtual Envs
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs & Temporary files
+logs/*.log
+*.log
+
+# Datasets & Large Data files
+datasets/generated/*.csv
+*.csv

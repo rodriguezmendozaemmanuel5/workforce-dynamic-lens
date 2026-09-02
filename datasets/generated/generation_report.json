@@ -1,0 +1,23 @@
+{
+  "historical_employee_population": 4500,
+  "current_active_headcount": 3300,
+  "current_inactive_headcount": 1200,
+  "total_employee_records_scd2": 4933,
+  "total_terminations": 1200,
+  "salary_stats": {
+    "min_usd": 10803.98,
+    "max_usd": 195750.0,
+    "mean_usd": 46672.25,
+    "median_usd": 46163.37
+  },
+  "country_distribution": {
+    "MEX": 0.34030303030303033,
+    "COL": 0.20272727272727273,
+    "ESP": 0.1593939393939394,
+    "BRA": 0.15393939393939393,
+    "DEU": 0.14363636363636365
+  },
+  "unplanned_absence_rate_pct": 1.51,
+  "historical_turnover_ratio_pct": 26.67,
+  "validation_errors_count": 0
+}

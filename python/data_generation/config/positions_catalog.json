@@ -1,0 +1,102 @@
+[
+  {
+    "position_id": "POS_ENG_JR",
+    "job_title": "Ingeniero de Software Junior",
+    "job_family": "Engineering",
+    "job_grade": "G3",
+    "career_level": "Junior",
+    "is_critical_position": false,
+    "is_remote_eligible": true,
+    "market_scarcity_index": 1.40
+  },
+  {
+    "position_id": "POS_ENG_SR",
+    "job_title": "Ingeniero de Software Senior",
+    "job_family": "Engineering",
+    "job_grade": "G6",
+    "career_level": "Senior",
+    "is_critical_position": true,
+    "is_remote_eligible": true,
+    "market_scarcity_index": 2.45
+  },
+  {
+    "position_id": "POS_ENG_LEAD",
+    "job_title": "Líder Técnico de Software",
+    "job_family": "Engineering",
+    "job_grade": "G7",
+    "career_level": "Lead",
+    "is_critical_position": true,
+    "is_remote_eligible": true,
+    "market_scarcity_index": 2.60
+  },
+  {
+    "position_id": "POS_BIO_SR",
+    "job_title": "Especialista en Dispositivos Médicos Sr",
+    "job_family": "Research & Development",
+    "job_grade": "G6",
+    "career_level": "Senior",
+    "is_critical_position": true,
+    "is_remote_eligible": false,
+    "market_scarcity_index": 2.80
+  },
+  {
+    "position_id": "POS_CLI_SUP",
+    "job_title": "Especialista de Soporte Clínico B2B",
+    "job_family": "Clinical Support",
+    "job_grade": "G4",
+    "career_level": "SemiSenior",
+    "is_critical_position": false,
+    "is_remote_eligible": false,
+    "market_scarcity_index": 1.70
+  },
+  {
+    "position_id": "POS_SALES_EXEC",
+    "job_title": "Ejecutivo de Cuentas Clave B2B",
+    "job_family": "Sales",
+    "job_grade": "G5",
+    "career_level": "SemiSenior",
+    "is_critical_position": false,
+    "is_remote_eligible": true,
+    "market_scarcity_index": 1.90
+  },
+  {
+    "position_id": "POS_HR_BP",
+    "job_title": "Human Resources Business Partner",
+    "job_family": "Human Resources",
+    "job_grade": "G6",
+    "career_level": "Senior",
+    "is_critical_position": false,
+    "is_remote_eligible": true,
+    "market_scarcity_index": 1.65
+  },
+  {
+    "position_id": "POS_FIN_ANALYST",
+    "job_title": "Analista Financiero Senior",
+    "job_family": "Finance",
+    "job_grade": "G5",
+    "career_level": "SemiSenior",
+    "is_critical_position": false,
+    "is_remote_eligible": true,
+    "market_scarcity_index": 1.50
+  },
+  {
+    "position_id": "POS_LOG_SPEC",
+    "job_title": "Especialista en Cadena de Suministro",
+    "job_family": "Supply Chain",
+    "job_grade": "G4",
+    "career_level": "SemiSenior",
+    "is_critical_position": false,
+    "is_remote_eligible": false,
+    "market_scarcity_index": 1.55
+  },
+  {
+    "position_id": "POS_DIR_OPS",
+    "job_title": "Director de Operaciones",
+    "job_family": "Management",
+    "job_grade": "G9",
+    "career_level": "Director",
+    "is_critical_position": true,
+    "is_remote_eligible": false,
+    "market_scarcity_index": 2.90
+  }
+]

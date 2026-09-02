@@ -1,0 +1,92 @@
+[
+  {
+    "benchmark_id": "BMK_ENG_JR_MEX",
+    "position_id": "POS_ENG_JR",
+    "country_code": "MEX",
+    "market_min_salary_usd": 14000.00,
+    "market_midpoint_salary_usd": 18000.00,
+    "market_max_salary_usd": 24000.00,
+    "survey_provider": "Aon Hewitt Salary Survey",
+    "effective_year": 2025
+  },
+  {
+    "benchmark_id": "BMK_ENG_SR_MEX",
+    "position_id": "POS_ENG_SR",
+    "country_code": "MEX",
+    "market_min_salary_usd": 32000.00,
+    "market_midpoint_salary_usd": 42000.00,
+    "market_max_salary_usd": 55000.00,
+    "survey_provider": "Aon Hewitt Salary Survey",
+    "effective_year": 2025
+  },
+  {
+    "benchmark_id": "BMK_ENG_SR_ESP",
+    "position_id": "POS_ENG_SR",
+    "country_code": "ESP",
+    "market_min_salary_usd": 45000.00,
+    "market_midpoint_salary_usd": 58000.00,
+    "market_max_salary_usd": 75000.00,
+    "survey_provider": "Mercer Compensation Study",
+    "effective_year": 2025
+  },
+  {
+    "benchmark_id": "BMK_BIO_SR_DEU",
+    "position_id": "POS_BIO_SR",
+    "country_code": "DEU",
+    "market_min_salary_usd": 65000.00,
+    "market_midpoint_salary_usd": 85000.00,
+    "market_max_salary_usd": 110000.00,
+    "survey_provider": "Korn Ferry Hay Group",
+    "effective_year": 2025
+  },
+  {
+    "benchmark_id": "BMK_CLI_SUP_COL",
+    "position_id": "POS_CLI_SUP",
+    "country_code": "COL",
+    "market_min_salary_usd": 9000.00,
+    "market_midpoint_salary_usd": 12500.00,
+    "market_max_salary_usd": 17000.00,
+    "survey_provider": "Willis Towers Watson",
+    "effective_year": 2025
+  },
+  {
+    "benchmark_id": "BMK_SALES_EXEC_BRA",
+    "position_id": "POS_SALES_EXEC",
+    "country_code": "BRA",
+    "market_min_salary_usd": 18000.00,
+    "market_midpoint_salary_usd": 25000.00,
+    "market_max_salary_usd": 34000.00,
+    "survey_provider": "Mercer Compensation Study",
+    "effective_year": 2025
+  },
+  {
+    "benchmark_id": "BMK_HR_BP_ESP",
+    "position_id": "POS_HR_BP",
+    "country_code": "ESP",
+    "market_min_salary_usd": 38000.00,
+    "market_midpoint_salary_usd": 48000.00,
+    "market_max_salary_usd": 62000.00,
+    "survey_provider": "Korn Ferry Hay Group",
+    "effective_year": 2025
+  },
+  {
+    "benchmark_id": "BMK_FIN_ANALYST_MEX",
+    "position_id": "POS_FIN_ANALYST",
+    "country_code": "MEX",
+    "market_min_salary_usd": 18000.00,
+    "market_midpoint_salary_usd": 24000.00,
+    "market_max_salary_usd": 32000.00,
+    "survey_provider": "Aon Hewitt Salary Survey",
+    "effective_year": 2025
+  },
+  {
+    "benchmark_id": "BMK_DIR_OPS_DEU",
+    "position_id": "POS_DIR_OPS",
+    "country_code": "DEU",
+    "market_min_salary_usd": 110000.00,
+    "market_midpoint_salary_usd": 145000.00,
+    "market_max_salary_usd": 190000.00,
+    "survey_provider": "Korn Ferry Hay Group",
+    "effective_year": 2025
+  }
+]
