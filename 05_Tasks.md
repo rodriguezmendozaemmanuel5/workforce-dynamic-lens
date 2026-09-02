@@ -42,9 +42,9 @@
 | **TSK-603** | v0.9.0 | QA, Testing & Optimization | Performance Optimization (Indexes & DAX) | Medium | TSK-301, TSK-501 | Completed |
 | **TSK-604** | v0.9.0 | QA, Testing & Optimization | Documentation Audit & Traceability Review | High | TSK-201, TSK-503 | Completed |
 | **TSK-701** | v1.0.0 | Portfolio Release & Showcase | Final Executive README & Storytelling | High | TSK-604 | Completed |
-| **TSK-702** | v1.0.0 | Portfolio Release & Showcase | Portfolio Assets (Screenshots, Demo GIFs) | Medium | TSK-502 | In Progress |
+| **TSK-702** | v1.0.0 | Portfolio Release & Showcase | Portfolio Assets (Screenshots, Demo GIFs) | Medium | TSK-502 | Completed  |
 | **TSK-703** | v1.0.0 | Portfolio Release & Showcase | Interview Case Study & Candidate Guide (STAR) | Medium | TSK-701 | Completed |
-| **TSK-704** | v1.0.0 | Portfolio Release & Showcase | GitHub Public Repository Release (v1.0.0) | High | TSK-701 | In Progress |
+| **TSK-704** | v1.0.0 | Portfolio Release & Showcase | GitHub Public Repository Release (v1.0.0) | High | TSK-701 | Completed  |
 
 ---
 
