@@ -6,7 +6,7 @@
 |------|-------------|
 | Project Name | Workforce Dynamic Lens |
 | Version | 0.2.0 |
-| Date | 07-20-2026 |
+| Date | 2026-07-20 |
 | Project Lead | Emmanuel Rodríguez Mendoza |
 | Professional Role | People Analytics / HR Data Analyst |
 | Business Area | Human Resources / People Analytics |

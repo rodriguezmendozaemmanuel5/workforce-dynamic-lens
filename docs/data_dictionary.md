@@ -6,7 +6,7 @@
 **Document Owner:** Emmanuel Rodríguez Mendoza  
 **Professional Role:** People Analytics / HR Data Analyst  
 **Project:** Workforce Dynamic Lens  
-**Date:** August 2026  
+**Date:** 2026-08-04  
 **Status:** Approved Data Contract Baseline  
 
 ---
@@ -26,7 +26,7 @@ Este documento actúa como un **Data Contract de clase empresarial** entre los s
 │ Database Schema Name         │ people_analytics                          │
 │ Schema Version               │ v0.4.0                                    │
 │ Timezone Standard            │ UTC (Coordinated Universal Time)          │
-│ Primary Code Repository      │ github.com/medtech-global/workforce-lens  │
+│ Primary Code Repository      │ github.com/rodriguezmendozaemmanuel5/workforce-dynamic-lens │
 │ Primary Language Standard    │ Spanish (Executive Body) / English (Code) │
 │ Governance Framework         │ Enterprise Data Governance (GDPR / LATAM) │
 └──────────────────────────────┴───────────────────────────────────────────┘
@@ -533,9 +533,9 @@ Las siguientes columnas quedan reservadas para incorporación en la base de dato
 
 | Version | Date | Author | Description of Changes | Approved By |
 | :--- | :--- | :--- | :--- | :--- |
-| **v0.1.0** | July 2026 | People Analytics Specialist | Borrador inicial de campos básicos | Project Team |
-| **v0.2.0** | July 2026 | HR Data Analyst | Incorporación de banderas PII y mapeo FR/BR | HR Tech Board |
-| **v0.3.0** | August 2026 | People Analytics Lead | Alineación con BRD v0.3.0 y tablas analíticas | C-Suite Sponsor |
-| **v0.4.0** | August 2026 | People Analytics / HR Data Analyst | Rediseño integral como Data Contract: 7 entidades completas, Fichas Técnicas, DQ Rules, Sensibilidad y Linaje | Executive Committee |
+| **v0.1.0** | 2026-07-15 | People Analytics Specialist | Borrador inicial de campos básicos | Project Team |
+| **v0.2.0** | 2026-07-20 | HR Data Analyst | Incorporación de banderas PII y mapeo FR/BR | HR Tech Board |
+| **v0.3.0** | 2026-07-29 | People Analytics Lead | Alineación con BRD v0.3.0 y tablas analíticas | C-Suite Sponsor |
+| **v0.4.0** | 2026-08-04 | People Analytics / HR Data Analyst | Rediseño integral como Data Contract: 7 entidades completas, Fichas Técnicas, DQ Rules, Sensibilidad y Linaje | Executive Committee |
 
 

@@ -5,7 +5,7 @@
 **Target Audience:** People Analytics Leaders, BI Managers, HR Business Partners, Technical Recruiters  
 **Project Author:** Emmanuel Rodríguez Mendoza  
 **Project:** Workforce Dynamic Lens  
-**Date:** August 2026  
+**Date:** 2026-08-08  
 **Status:** Baseline Established (v0.5.0)  
 
 ---

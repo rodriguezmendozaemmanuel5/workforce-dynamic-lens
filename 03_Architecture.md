@@ -6,7 +6,7 @@
 **Project Author:** Emmanuel Rodríguez Mendoza  
 **Professional Role:** People Analytics / HR Data Analyst  
 **Project:** Workforce Dynamic Lens  
-**Date:** August 2026  
+**Date:** 2026-08-08  
 **Status:** Architecture Design Baseline – Completed (v0.5.0)  
 
 ---
@@ -388,7 +388,7 @@ La capa analítica intermedia consolida consultas complejas para optimizar el re
 
 Project Author: Emmanuel Rodríguez Mendoza
 Professional Role: People Analytics / HR Data Analyst
-Date: August 2026
+Date: 2026-08-08
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │ COMPREHENSIVE TECHNOLOGY STACK CATALOG                                                                                 │
@@ -552,5 +552,5 @@ La estrategia de pruebas abarca seis dimensiones automatizadas mediante `pytest`
 
 Project Author: Emmanuel Rodríguez Mendoza
 Professional Role: People Analytics / HR Data Analyst
-Date: August 2026
+Date: 2026-08-08
 ```

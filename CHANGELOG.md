@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 This project follows the **Keep a Changelog** format and **Semantic Versioning (SemVer)**.
 
+## [v1.0.0] — 2026-09-02
+
+### Added
+- **Official Portfolio Release:** Publicación oficial y empaquetado del repositorio con arquitectura end-to-end completa.
+- **Auditoría de Paridad QA Certificada:** Validación cruzada al 100% entre PostgreSQL (Kimball DWH) y medidas DAX en Power BI.
+- **Assets Visuales:** Integración de capturas de alta resolución en `powerbi/Images/` correspondientes a las 3 vistas del dashboard.
+- **Documentación de Entrevista STAR:** Publicación de `docs/interview_notes.md` con narrativas de impacto de $6.44M USD en P&L.
+
+---
+
 ## [v0.9.0] — 2026-08-26
 ### 🛡️ Quality Assurance, Testing & Performance Optimization
 - **E2E Consistency & Audit**: Conducted full cross-validation between PostgreSQL DW tables (`dim_employees`, `fact_terminations`, `fact_attendance_logs`, `fact_sla_events`), SQL analytical views (`sql/analytics/13_views.sql`), DAX measures in Power BI (`.pbix`), and documentation contracts (`KPIs_Definition.md`, `Business_Insights.md`).
@@ -59,7 +69,16 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 
 ---
 
-## [v0.5.0] - August 2026
+## [v0.6.0] — 2026-08-11
+
+### Added
+- **Pipeline ETL & Generador Sintético:** Script de ingesta masiva en Python para poblar 4,500 colaboradores y 1.5M+ registros de asistencia.
+- **Motor de Validación de Integridad:** Reglas de validación relacional, checks de unicidad y control de tipos de ausencia.
+- **Infraestructura PostgreSQL:** Creación automatizada de esquemas, índices B-Tree y restricciones DDL en `people_analytics`.
+
+---
+
+## [v0.5.0] — 2026-08-08
 
 ### Added
 
@@ -100,7 +119,7 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 
 ---
 
-## [v0.4.0] - August 2026
+## [v0.4.0] — 2026-08-04
 
 ### Added
 
@@ -146,7 +165,7 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 
 ---
 
-## [v0.3.0] - July 2026
+## [v0.3.0] — 2026-07-29
 
 ### Added
 
@@ -175,7 +194,7 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 
 ---
 
-## [v0.2.0] - July 2026
+## [v0.2.0] — 2026-07-20
 
 ### Added
 
@@ -191,7 +210,7 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 
 ---
 
-## [v0.1.0] - July 2026
+## [v0.1.0] — 2026-07-15
 
 ### Added
 
@@ -206,17 +225,6 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 
 ---
 
-## Planned Releases
-
-### v0.9.0
-- Documentation Review & Traceability
-- Code Refactoring (PEP8 & SQL Standards)
-- End-to-End Testing Suite
-- Performance Optimization (Indexes & DAX)
-
-### v1.0.0
-- Production-ready Portfolio Release
-- Complete Executive Documentation & Storytelling
-- GitHub Publication & Tagging
-- Interview Case Study Guide (STAR method)
-- Portfolio Showcase & Visual Assets
+## [Upcoming Enhancements] — Post-v1.0.0
+- Integración de pipeline CI/CD con GitHub Actions para ejecución automática de pruebas unitarias (`pytest`).
+- Conexión del modelo predictivo XGBoost como API REST contenerizada en Docker.

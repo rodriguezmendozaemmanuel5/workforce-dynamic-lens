@@ -2,12 +2,12 @@
 ## WORKFORCE DYNAMIC LENS – ENTERPRISE ATTRITION, ABSENTEEISM & FINANCIAL IMPACT ANALYSIS
 ### MedTech Global Solutions
 
-**Document Version:** v0.8.0  
+**Document Version:** v1.0.0  
 **Target Audience:** Executive Committee (CEO, CFO, CHRO, VP of Operations, VP of R&D, HRBPs)  
 **Author:** Emmanuel Rodríguez Mendoza  
 **Professional Role:** People Analytics / HR Data Analyst  
 **Project:** Workforce Dynamic Lens  
-**Date:** August 2026  
+**Date:** 2026-09-02  
 **Status:** Certified Business Insights Baseline  
 
 ---

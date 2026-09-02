@@ -1,19 +1,19 @@
 # PROJECT ROADMAP & DEVELOPMENT PLAN
 ## WORKFORCE DYNAMIC LENS – PEOPLE ANALYTICS & WORKFORCE DYNAMICS SOLUTION
 
-**Document Version:** v0.9.0  
+**Document Version:** v1.0.0  
 **Target Audience:** People Analytics Leaders, BI Managers, HR Business Partners, Data Analytics Recruiters  
 **Project Author:** Emmanuel Rodríguez Mendoza  
 **Professional Role:** People Analytics / HR Data Analyst  
 **Project:** Workforce Dynamic Lens  
-**Date:** August 2026  
-**Status:** Fase 6 Completed (v0.9.0 Baseline) – In Progress (Fase 7: Portfolio Release & Showcase)  
+**Date:** 2026-09-02  
+**Status:** Completed (v1.0.0 Portfolio Release & Production Deployment)  
 
 ---
 
 ## 1. Executive Overview
 
-El **Project Roadmap & Development Plan (v0.9.0)** establece la planificación estratégica, las fases de desarrollo, los hitos de release por versión y el estado real de avance para la solución **Workforce Dynamic Lens**.
+El **Project Roadmap & Development Plan (v1.0.0)** establece la planificación estratégica, las fases de desarrollo, los hitos de release por versión y el estado real de avance para la solución **Workforce Dynamic Lens**.
 
 Este documento actúa como la guía de gestión del proyecto, definiendo el recorrido completo desde la formulación del problema de negocio en Recursos Humanos hasta la entrega de un portafolio profesional de nivel **People Analytics / HR Data Analyst**. Refleja con precisión el avance del repositorio, organizando el trabajo en **fases de desarrollo estructuradas** y manteniendo las versiones numéricas exclusivamente como **hitos de versión (*Release Milestones*)** alineados de forma estricta con el `CHANGELOG.md`.
 
@@ -52,7 +52,7 @@ El desarrollo del proyecto se estructura en **7 fases secuenciales**, garantizan
 ```text
 [ Fase 1: Business Understanding ] ──► [ Fase 2: Analytics Design ] ──► [ Fase 3: Data Prep & Ingestion ]
                                                                                    │
-[ Fase 7: Portfolio Showcase (In Progress) ] ◄─ [ Fase 6: QA & Testing (Completed) ] ◄─ [ Fase 5: Power BI ] ◄─ [ Fase 4: Workforce Analytics ]
+[ Fase 7: Portfolio Showcase (Completed) ] ◄─ [ Fase 6: QA & Testing (Completed) ] ◄─ [ Fase 5: Power BI ] ◄─ [ Fase 4: Workforce Analytics ]
 ```
 
 ### Fase 1: Business Understanding & HR Strategy
@@ -92,7 +92,7 @@ El desarrollo del proyecto se estructura en **7 fases secuenciales**, garantizan
 * **Entregables:** Código refactorizado (PEP8/SQL standard), informe de calidad de datos y auditoría de consistencia de métricas.
 
 ### Fase 7: Portfolio Release & Showcase
-* **Estado:** In Progress
+* **Estado:** Completed
 * **Hito de Versión:** `v1.0.0`
 * **Objetivo:** Redactar el `README.md` ejecutivo principal, capturar assets visuales de alta calidad, preparar el caso de estudio para entrevistas y publicar el release v1.0.0 en GitHub.
 * **Entregables:** `README.md` de portafolio final, capturas/GIFs de dashboards, caso de estudio preparado, Git Tag `v1.0.0`.
@@ -114,7 +114,7 @@ Las versiones numéricas del proyecto representan **hitos de entrega (*Release M
 | **v0.7.0** | Exploratory Data Analysis, SQL Views & System Reconciliation | Fase 4 | Completed |
 | **v0.8.0** | Power BI Executive Dashboards Suite, DAX & Business Insights Report | Fase 5 | Completed |
 | **v0.9.0** | Quality Assurance, Testing, Code Refactoring & Performance | Fase 6 | Completed |
-| **v1.0.0** | Production Portfolio Release, README Storytelling & GitHub Showcase | Fase 7 | In Progress |
+| **v1.0.0** | Production Portfolio Release, README Storytelling & GitHub Showcase | Fase 7 | Completed |
 
 ---
 
@@ -130,7 +130,7 @@ El avance del proyecto se evalúa de manera objetiva según el estado de ejecuci
 | **Fase 4: Workforce Analytics & SQL**| v0.7.0 | **Completed** | Notebooks EDA, Vistas SQL, Reconciliación SCD2, Queries de Validación |
 | **Fase 5: Business Intelligence Suite** | v0.8.0 | **Completed** | Archivo `.pbix` Power BI, Medidas DAX, Reporte de Insights |
 | **Fase 6: QA, Testing & Optimization** | v0.9.0 | **Completed** | Código refactorizado, Pruebas E2E, Índices SQL, Auditoría |
-| **Fase 7: Portfolio Release & Showcase** | v1.0.0 | **In Progress** | README Ejecutivo Final, Assets de Portafolio, Caso de Estudio |
+| **Fase 7: Portfolio Release & Showcase** | v1.0.0 | **Completed** | README Ejecutivo Final, Assets de Portafolio, Caso de Estudio |
 
 ---
 
@@ -147,7 +147,7 @@ El avance del proyecto se evalúa de manera objetiva según el estado de ejecuci
 | **MS-07** | Vistas Analíticas en SQL, Reconciliación SCD2 y Análisis Exploratorio de Talento | Fase 4 | v0.7.0 | Completed |
 | **MS-08** | Desarrollo de Tableros en Power BI, Medidas DAX e Informe de Insights | Fase 5 | v0.8.0 | Completed |
 | **MS-09** | Refactorización de Código, Pruebas E2E y Auditoría de Consistencia | Fase 6 | v0.9.0 | Completed |
-| **MS-10** | Publicación Final del Repositorio de Portafolio en GitHub | Fase 7 | v1.0.0 | In Progress |
+| **MS-10** | Publicación Final del Repositorio de Portafolio en GitHub | Fase 7 | v1.0.0 | Completed |
 
 ---
 

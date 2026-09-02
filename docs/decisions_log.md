@@ -1,12 +1,12 @@
 # DECISION LOG & ARCHITECTURAL REGISTER
 ## WORKFORCE DYNAMIC LENS – PEOPLE ANALYTICS & HR FINANCIAL OPTIMIZATION PLATFORM
 
-**Document Version:** v0.5.0  
+**Document Version:** v1.0.0  
 **Target Audience:** People Analytics Leaders, BI Managers, HR Business Partners, Technical Recruiters  
 **Project Author:** Emmanuel Rodríguez Mendoza  
 **Project:** Workforce Dynamic Lens  
-**Date:** August 2026  
-**Status:** Fase 2 Completed – Analytics Design & Data Modeling Baseline Established  
+**Date:** 2026-09-02  
+**Status:** Approved Architecture & Decision Baseline (v1.0.0)  
 
 ---
 
@@ -34,23 +34,25 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 
 | Decision ID | Date | Version | Category | Decision | Core Justification | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **DEC-001** | July 2026 | v0.3.0 | BUS | Focus on HR Domain & Monetization | Diferenciación del perfil alineando datos de RRHH con impacto financiero ($540k USD en P&L). | Approved |
-| **DEC-002** | July 2026 | v0.2.0 | DAT | 100% Synthetic Data Generation via Python | Garantizar privacidad (RGPD/PII) sin comprometer el realismo estadístico ni relaciones de negocio. | Approved |
-| **DEC-003** | August 2026 | v0.5.0 | DAT | Adopt Kimball Star Schema Architecture | Optimizar el rendimiento OLAP y simplificar la sintaxis de medidas DAX en Power BI. | Approved |
-| **DEC-004** | August 2026 | v0.5.0 | DAT | PostgreSQL 16+ as Relational DW Engine | Motor relacional robusto, open-source, con soporte nativo para ANSI SQL y RLS. | Approved |
-| **DEC-005** | August 2026 | v0.4.0 | DAT | Data Dictionary & Contract Specification | Establecer `docs/data_dictionary.md` como contrato estricto de calidad antes de codificar en Python/SQL. | Approved |
-| **DEC-006** | August 2026 | v0.5.0 | ENG | Python 3.11+ as Core Analytics Stack | Lenguaje estándar unificado para generación sintética, ETL, validaciones de calidad y ML. | Approved |
-| **DEC-007** | August 2026 | v0.5.0 | ENG | Multivariate Risk Scoring & Retention Analytics | Modelo analítico explicable para diagnóstico de fuga de talento basado en variables de talento. | Approved |
-| **DEC-008** | August 2026 | v0.5.0 | ENG | Power BI as Primary Executive BI Suite | Estándar corporativo global para dashboards interactivos, modelado dimensional y DAX. | Approved |
-| **DEC-009** | August 2026 | v0.3.0 | BUS | Configurable Bradford Factor Thresholds | Evitar valores rígidos universales; adaptar alertas a políticas corporativas de ausentismo. | Approved |
-| **DEC-010** | August 2026 | v0.5.0 | ENG | Separation of Architecture Docs & Code | Mantener documentación funcional limpia separada del código ejecutable (`sql/`, `python/`). | Approved |
+| **DEC-001** | 2026-07-29 | v0.3.0 | BUS | Focus on HR Domain & Monetization | Diferenciación del perfil alineando datos de RRHH con impacto financiero ($540k USD en P&L). | Approved |
+| **DEC-002** | 2026-07-20 | v0.2.0 | DAT | 100% Synthetic Data Generation via Python | Garantizar privacidad (RGPD/PII) sin comprometer el realismo estadístico ni relaciones de negocio. | Approved |
+| **DEC-003** | 2026-08-08 | v0.5.0 | DAT | Adopt Kimball Star Schema Architecture | Optimizar el rendimiento OLAP y simplificar la sintaxis de medidas DAX en Power BI. | Approved |
+| **DEC-004** | 2026-08-08 | v0.5.0 | DAT | PostgreSQL 16+ as Relational DW Engine | Motor relacional robusto, open-source, con soporte nativo para ANSI SQL y RLS. | Approved |
+| **DEC-005** | 2026-08-04 | v0.4.0 | DAT | Data Dictionary & Contract Specification | Establecer `docs/data_dictionary.md` como contrato estricto de calidad antes de codificar en Python/SQL. | Approved |
+| **DEC-006** | 2026-08-08 | v0.5.0 | ENG | Python 3.11+ as Core Analytics Stack | Lenguaje estándar unificado para generación sintética, ETL, validaciones de calidad y ML. | Approved |
+| **DEC-007** | 2026-08-08 | v0.5.0 | ENG | Multivariate Risk Scoring & Retention Analytics | Modelo analítico explicable para diagnóstico de fuga de talento basado en variables de talento. | Approved |
+| **DEC-008** | 2026-08-08 | v0.5.0 | ENG | Power BI as Primary Executive BI Suite | Estándar corporativo global para dashboards interactivos, modelado dimensional y DAX. | Approved |
+| **DEC-009** | 2026-08-08 | v0.3.0 | BUS | Configurable Bradford Factor Thresholds | Evitar valores rígidos universales; adaptar alertas a políticas corporativas de ausentismo. | Approved |
+| **DEC-010** | 2026-08-08 | v0.5.0 | ENG | Separation of Architecture Docs & Code | Mantener documentación funcional limpia separada del código ejecutable (`sql/`, `python/`). | Approved |
+| **DEC-015** | 2026-08-14 | v0.7.0 | DAT | Termination Reconciliation & is_active Semantics | Reconciliación de bajas y eliminación de asistencias post-desvinculación. | Approved |
+| **DEC-016** | 2026-08-14 | v0.7.0 | DAT | Date Dimension Range & Constraint Alignment | Expansión de `dim_date` (2012–2030) y alineación con restricciones PostgreSQL. | Approved |
 
 ---
 
 ## 4. Chronological Decision Registry
 
 ### DEC-001: Focus on HR Domain & Financial Monetization (P&L Impact)
-* **Date:** July 2026
+* **Date:** 2026-07-29
 * **Release Milestone:** v0.3.0
 * **Category:** Business & Domain (`BUS`)
 * **Decision:** Centrar el portafolio exclusivamente en el dominio de *People Analytics* y monetizar el impacto de la rotación y el ausentismo en el estado de resultados (P&L) de MedTech Global Solutions.
@@ -61,7 +63,7 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 ---
 
 ### DEC-002: 100% Synthetic Data Generation via Python
-* **Date:** July 2026
+* **Date:** 2026-07-20
 * **Release Milestone:** v0.2.0 (Planificación) / v0.6.0 (Implementación)
 * **Category:** Business & Data Privacy (`DAT`)
 * **Decision:** Diseñar un motor generador sintético en Python (`python/data_generation/`) que simule la operación de 4.500 empleados, inyectando programáticamente correlaciones de negocio realistas (ej. brecha salarial → mayor rotación; horas extra → ausentismo por burnout).
@@ -72,7 +74,7 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 ---
 
 ### DEC-003: Adoption of Kimball Star Schema Architecture
-* **Date:** August 2026
+* **Date:** 2026-08-08
 * **Release Milestone:** v0.5.0
 * **Category:** Data Modeling (`DAT`)
 * **Decision:** Implementar un Esquema en Estrella (*Star Schema*) compuesto por 3 dimensiones conformadas (`dim_employees`, `dim_departments`, `dim_positions`), 1 dimensión de referencia (`dim_salary_benchmarks`) y 3 tablas de hechos (`fact_attendance_logs`, `fact_terminations`, `fact_sla_events`).
@@ -83,7 +85,7 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 ---
 
 ### DEC-004: PostgreSQL 16+ as Primary Relational Engine
-* **Date:** August 2026
+* **Date:** 2026-08-08
 * **Release Milestone:** v0.5.0 (Arquitectura) / v0.6.0 (Despliegue)
 * **Category:** Infrastructure & Architecture (`DAT`)
 * **Decision:** Seleccionar PostgreSQL 16+ como el motor de base de datos relacional para el almacén de datos analítico.
@@ -94,7 +96,7 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 ---
 
 ### DEC-005: Data Dictionary & Specifications Baseline
-* **Date:** August 2026
+* **Date:** 2026-08-04
 * **Release Milestone:** v0.4.0
 * **Category:** Data Governance (`DAT`)
 * **Decision:** Formalizar el documento `docs/data_dictionary.md` como especificación y contrato de datos previo al desarrollo del código en Python o SQL.
@@ -105,7 +107,7 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 ---
 
 ### DEC-006: Python 3.11+ as Core Data Prep & Ingestion Stack
-* **Date:** August 2026
+* **Date:** 2026-08-08
 * **Release Milestone:** v0.5.0
 * **Category:** Analytics Engineering (`ENG`)
 * **Decision:** Utilizar Python 3.11+ junto con `SQLAlchemy`, `Pandas` y `NumPy` para la orquestación del pipeline ETL, la generación sintética y la validación de contratos.
@@ -116,7 +118,7 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 ---
 
 ### DEC-007: Multivariate Risk Scoring & Retention Analytics
-* **Date:** August 2026
+* **Date:** 2026-08-08
 * **Release Milestone:** v0.5.0 (Diseño) / v0.7.0 (Lógica Analítica)
 * **Category:** People Analytics (`BUS` / `ENG`)
 * **Decision:** Implementar un modelo analítico multifactorial de riesgo de rotación y retención, sintetizando el Compa-Ratio frente a mercado, la acumulación de horas extra en 30 días y la severidad de ausentismo (Factor de Bradford).
@@ -127,7 +129,7 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 ---
 
 ### DEC-008: Power BI as Primary Executive BI Suite
-* **Date:** August 2026
+* **Date:** 2026-08-08
 * **Release Milestone:** v0.5.0 (Diseño) / v0.8.0 (Dashboards)
 * **Category:** Business Intelligence (`ENG`)
 * **Decision:** Utilizar Microsoft Power BI Desktop / Service como la suite corporativa para la capa de visualización e historias con datos (*Data Storytelling*).
@@ -138,7 +140,7 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 ---
 
 ### DEC-009: Configurable Bradford Factor Thresholds & Proxy Exit Reclassification
-* **Date:** August 2026
+* **Date:** 2026-08-08
 * **Release Milestone:** v0.3.0 (BRS) & v0.5.0 (KPIs)
 * **Category:** Business Logic (`BUS` / `DAT`)
 * **Decision:** Definir los umbrales del Factor de Bradford como parámetros de negocio configurables e implementar una regla de reclasificación proxy para corregir motivos de salida genéricos.
@@ -149,12 +151,12 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 ---
 
 ### DEC-010: Separation of Architecture Documentation and Executable SQL
-* **Date:** August 2026
+* **Date:** 2026-08-08
 * **Release Milestone:** v0.5.0
 * **Category:** Software Engineering (`ENG`)
 * **Decision:** Separar de forma estricta la documentación técnica del modelo de datos (`04_Data_Model.md`) del código ejecutable en base de datos, organizando los scripts DDL en archivos modulares dentro de `sql/`.
 * **Alternatives Considered:** Incluir cientos de líneas de código SQL DDL dentro del archivo de documentación Markdown.
-* **Justification:** Mezclar documentación con código dificulta la lectura ejecutiva y complica la automatización de scripts. Tener archivos modulares (`sql/ddl_schema.sql`, etc.) refleja las mejores prácticas de organización de proyectos analíticos.
+* **Justification:** Mezclar documentación con código dificulta la lectura ejecutiva y complica la automatización de scripts. Tener archivos modulares (`sql/schema/*.sql`, etc.) refleja las mejores prácticas de organización de proyectos analíticos.
 * **Impact:** Estructura de repositorio limpia y ejecutable paso a paso.
 
 ---
@@ -164,15 +166,17 @@ Cada decisión registrada en este documento se clasifica dentro de tres dominios
 | Decision ID | Primary Document Impacted | Code Artifact Impacted | Target Stakeholder Benefit |
 | :--- | :--- | :--- | :--- |
 | **DEC-001** | `docs/Business_Case.md` | N/A | CFO / CHRO (Clear ROI Monetization) |
-| **DEC-002** | `docs/Company_Profile.md` | `python/generate_synthetic_data.py` | CISO / Privacy Lead (100% GDPR Compliant) |
-| **DEC-003** | `04_Data_Model.md` | `sql/ddl_schema.sql` | BI Developer (Simple DAX Joins) |
-| **DEC-004** | `03_Architecture.md` | `sql/ddl_schema.sql` | Analytics Lead (ANSI SQL Standard) |
-| **DEC-005** | `docs/data_dictionary.md` | `python/etl_pipeline.py` | Data Steward (Quality Auditability) |
-| **DEC-006** | `03_Architecture.md` | `python/etl_pipeline.py` | Analytics Engineer (Unified Codebase) |
-| **DEC-007** | `docs/KPIs_Definition.md` | `python/ml_flight_risk.py` | HRBP (Explainable Flight Risk Drivers) |
-| **DEC-008** | `03_Architecture.md` | `powerbi/workforce_dynamic_lens.pbix` | C-Suite (Interactive Decision Panels) |
-| **DEC-009** | `docs/business_requirements.md` | `sql/views.sql` | HR Operations (Flexible Policy Rules) |
-| **DEC-010** | `04_Data_Model.md` | `sql/*.sql` | Technical Reviewer (Clean Repo Layout) |
+| **DEC-002** | `docs/Company_Profile.md` | `python/data_generation/generate_dataset.py` | CISO / Privacy Lead (100% GDPR Compliant) |
+| **DEC-003** | `04_Data_Model.md` | `sql/schema/01_database_schema.sql` | BI Developer (Simple DAX Joins) |
+| **DEC-004** | `03_Architecture.md` | `sql/schema/` | Analytics Lead (ANSI SQL Standard) |
+| **DEC-005** | `docs/data_dictionary.md` | `python/etl/validation.py` | Data Steward (Quality Auditability) |
+| **DEC-006** | `03_Architecture.md` | `python/etl/pipeline.py` | Analytics Engineer (Unified Codebase) |
+| **DEC-007** | `docs/KPIs_Definition.md` | `sql/analytics/13_views.sql` | HRBP (Explainable Flight Risk Drivers) |
+| **DEC-008** | `03_Architecture.md` | `powerbi/People_Analytics_Executive_Suite_MedTech.pbix` | C-Suite (Interactive Decision Panels) |
+| **DEC-009** | `docs/business_requirements.md` | `sql/analytics/13_views.sql` | HR Operations (Flexible Policy Rules) |
+| **DEC-010** | `04_Data_Model.md` | `sql/schema/*.sql` | Technical Reviewer (Clean Repo Layout) |
+| **DEC-015** | `docs/data_dictionary.md` | `python/data_generation/generate_dataset.py` | Data Engineer (Reconciled Employee Active States) |
+| **DEC-016** | `04_Data_Model.md` | `sql/schema/11_constraints.sql` | DWH Architect (Historical Date Support 2012–2030) |
 
 ---
 

@@ -165,7 +165,8 @@ Organizadas en carpetas de exhibición (*Display Folders*):
 ```text
 Workforce Dynamic Lens/
 ├── README.md                      # Resumen ejecutivo de portafolio y showcase
-├── CHANGELOG.md                   # Historial de cambios bajo Keep a Changelog (v0.8.0)
+├── CHANGELOG.md                   # Historial de cambios bajo Keep a Changelog (v1.0.0)
+├── requirements.txt               # Dependencias oficiales del proyecto Python
 ├── LICENSE.md                     # Licencia MIT
 │
 ├── 01_Project_Charter.md          # Carta de constitución y gobernanza del proyecto
@@ -208,7 +209,7 @@ Workforce Dynamic Lens/
 ### 2. Ejecutar la Base de Datos en PostgreSQL (Opcional / Reproducibilidad)
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/workforce-dynamic-lens.git
+git clone https://github.com/rodriguezmendozaemmanuel5/workforce-dynamic-lens.git
 cd workforce-dynamic-lens
 
 # 2. Configurar entorno virtual e instalar dependencias
@@ -218,8 +219,6 @@ pip install -r requirements.txt
 
 # 3. Generar datos y cargar PostgreSQL
 python -m python.data_generation.generate_dataset
-psql -U postgres -d workforce_db -f sql/schema/01_schema.sql
-psql -U postgres -d workforce_db -f sql/schema/02_tables.sql
 python -m python.etl.pipeline --execute
 psql -U postgres -d workforce_db -f sql/analytics/13_views.sql
 psql -U postgres -d workforce_db -f sql/analytics/14_validation_queries.sql
@@ -245,9 +244,9 @@ psql -U postgres -d workforce_db -f sql/analytics/14_validation_queries.sql
 
 **Emmanuel Rodríguez Mendoza**  
 *Psicólogo Organizacional | People Analytics Specialist | HR Data Analyst | Business Intelligence*  
-- **LinkedIn:** [www.linkedin.com/in/emmanuel-rodríguez-mendoza-aa638a220](https://www.linkedin.com/in/emmanuel-rodríguez-mendoza-aa638a220/)  
-- **GitHub:** [https://github.com/rodriguezmendozaemmanuel5]
-- **Email:** [mendozarm2308@gmail.com] 
+- **LinkedIn:** [linkedin.com/in/emmanuel-rodríguez-mendoza-aa638a220](https://www.linkedin.com/in/emmanuel-rodr%C3%ADguez-mendoza-aa638a220/)  
+- **GitHub:** [github.com/rodriguezmendozaemmanuel5](https://github.com/rodriguezmendozaemmanuel5)  
+- **Email:** [mendozarm2308@gmail.com](mailto:mendozarm2308@gmail.com)
 
 ---
 

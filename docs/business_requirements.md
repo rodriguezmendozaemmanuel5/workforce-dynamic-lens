@@ -6,7 +6,7 @@
 **Author:** Emmanuel Rodríguez Mendoza  
 **Professional Role:** People Analytics / HR Data Analyst  
 **Project:** Workforce Dynamic Lens  
-**Date:** 07-29-2026  
+**Date:** 2026-07-29  
 **Status:** Baseline Functional Specification Approved  
 
 ---

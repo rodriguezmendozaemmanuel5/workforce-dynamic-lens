@@ -5,7 +5,7 @@
 **Target Audience:** HR Business Partners, People Analytics Professionals, BI Developers, Data Analysts, Technical Reviewers  
 **Project Author:** Emmanuel Rodríguez Mendoza  
 **Project:** Workforce Dynamic Lens  
-**Date:** August 2026  
+**Date:** 2026-08-08  
 **Status:** KPI Design Baseline  
 
 ---
@@ -137,7 +137,7 @@ El proceso de actualización de métricas sigue una secuencia estricta de depend
   * **Data Steward:** HRIS Operations Specialist
   * **Approval Committee:** HR Executive Governance Board
 * **Validation History:**
-  * **Last Validation Date:** August 2026
+  * **Last Validation Date:** 2026-08-08
   * **Data Contract Version:** `v0.4.0` | **Business Rule Version:** `BR v0.3.0`
 
 #### Business Scope & Objective
@@ -236,7 +236,7 @@ fact_terminations (termination_type)  ──────┘
   * **Data Steward:** Finance Controller
   * **Approval Committee:** Executive Financial Board
 * **Validation History:**
-  * **Last Validation Date:** August 2026
+  * **Last Validation Date:** 2026-08-08
   * **Data Contract Version:** `v0.4.0` | **Business Rule Version:** `BR v0.3.0`
 
 #### Business Scope & Objective
@@ -320,7 +320,7 @@ dim_employees (fully_loaded_cost_usd) ────────┘
   * **Data Steward:** People Operations Specialist
   * **Approval Committee:** HR Operations Board
 * **Validation History:**
-  * **Last Validation Date:** August 2026
+  * **Last Validation Date:** 2026-08-08
   * **Data Contract Version:** `v0.4.0` | **Business Rule Version:** `BR v0.3.0`
 
 #### Business Scope & Objective
@@ -402,7 +402,7 @@ fact_terminations (termination_type) ───┘
   * **Data Steward:** Total Rewards Specialist
   * **Approval Committee:** Global Compensation Board
 * **Validation History:**
-  * **Last Validation Date:** August 2026
+  * **Last Validation Date:** 2026-08-08
   * **Data Contract Version:** `v0.4.0` | **Business Rule Version:** `BR v0.3.0`
 
 #### Business Scope & Objective
@@ -479,7 +479,7 @@ dim_salary_benchmarks (midpoint_usd) ────┘
   * **Data Steward:** Finance Controller
   * **Approval Committee:** Financial Audit Board
 * **Validation History:**
-  * **Last Validation Date:** August 2026
+  * **Last Validation Date:** 2026-08-08
   * **Data Contract Version:** `v0.4.0` | **Business Rule Version:** `BR v0.3.0`
 
 #### Business Scope & Objective
@@ -559,7 +559,7 @@ dim_positions (market_scarcity_index) ──┘
   * **Data Steward:** B2B Contract Analyst
   * **Approval Committee:** Operations Service Board
 * **Validation History:**
-  * **Last Validation Date:** August 2026
+  * **Last Validation Date:** 2026-08-08
   * **Data Contract Version:** `v0.4.0` | **Business Rule Version:** `BR v0.3.0`
 
 #### Business Scope & Objective
@@ -628,7 +628,7 @@ dim_departments (target_headcount) ──────┘
   * **Data Steward:** HRBP Specialist
   * **Approval Committee:** HR & Analytics Steering Committee
 * **Validation History:**
-  * **Last Validation Date:** August 2026
+  * **Last Validation Date:** 2026-08-08
   * **Data Contract Version:** `v0.4.0` | **Business Rule Version:** `BR v0.3.0`
 
 #### Business Scope & Objective
@@ -724,7 +724,7 @@ dim_salary_benchmarks ─┘
   * **Data Steward:** Operations Control Specialist
   * **Approval Committee:** Operations Control Board
 * **Validation History:**
-  * **Last Validation Date:** August 2026
+  * **Last Validation Date:** 2026-08-08
   * **Data Contract Version:** `v0.4.0` | **Business Rule Version:** `BR v0.3.0`
 
 #### Business Scope & Objective

@@ -6,7 +6,7 @@
 **Project Author:** Emmanuel Rodríguez Mendoza  
 **Professional Role:** People Analytics / HR Data Analyst  
 **Project:** Workforce Dynamic Lens  
-**Date:** August 2026  
+**Date:** 2026-08-08  
 **Status:** Final Data Model Baseline  
 
 ---

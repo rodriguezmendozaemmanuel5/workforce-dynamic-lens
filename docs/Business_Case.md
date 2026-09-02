@@ -8,8 +8,8 @@
 **Project Lead:** Emmanuel Rodríguez Mendoza  
 **Professional Role:** People Analytics / HR Data Analyst  
 **Sponsor:** Head of People Analytics & HR Digital Transformation  
-**Date:** 07-29-2026  
-**Status:** Submitted for Approval  
+**Date:** 2026-07-29  
+**Status:** Approved by Executive Committee  
 
 ---
 
