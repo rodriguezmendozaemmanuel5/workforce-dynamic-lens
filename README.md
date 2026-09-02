@@ -236,8 +236,8 @@ psql -U postgres -d workforce_db -f sql/analytics/14_validation_queries.sql
 | **Fase 3: Data Prep & Ingestion** | `v0.6.0` | **Completed** | PostgreSQL DW, Pipeline ETL Python, Validación de Calidad |
 | **Fase 4: Workforce Analytics & SQL**| `v0.7.0` | **Completed** | Vistas SQL maestras, Reconciliación SCD2, Queries de Validación |
 | **Fase 5: Business Intelligence Suite** | `v0.8.0` | **Completed** | Archivo `.pbix` Power BI, Medidas DAX, Reporte de Insights |
-| **Fase 6: QA, Testing & Optimization** | `v0.9.0` | **In Progress** | Refactorización de código, Pruebas E2E, Auditoría de Consistencia |
-| **Fase 7: Portfolio Release & Showcase** | `v1.0.0` | **Planned** | Showcase final en GitHub, Assets visuales, Tag v1.0.0 |
+| **Fase 6: QA, Testing & Optimization** | `v0.9.0` | **Completed** | Refactorización de código, Pruebas E2E, Auditoría de Consistencia |
+| **Fase 7: Portfolio Release & Showcase** | `v1.0.0` | **Completed** | Showcase final en GitHub, Assets visuales, Tag v1.0.0 |
 
 ---
 
