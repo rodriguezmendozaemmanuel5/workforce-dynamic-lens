@@ -247,7 +247,7 @@ psql -U postgres -d workforce_db -f sql/analytics/14_validation_queries.sql
 *Psicólogo Organizacional | People Analytics Specialist | HR Data Analyst | Business Intelligence*  
 - **LinkedIn:** [www.linkedin.com/in/emmanuel-rodríguez-mendoza-aa638a220](https://www.linkedin.com/in/emmanuel-rodríguez-mendoza-aa638a220/)  
 - **GitHub:** [https://github.com/rodriguezmendozaemmanuel5]
-- **Email:** [rodriguezmendozaemmanuel5@gmail.com] 
+- **Email:** [mendozarm2308@gmail.com] 
 
 ---
 
