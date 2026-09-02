@@ -246,9 +246,9 @@ psql -U postgres -d workforce_db -f sql/analytics/14_validation_queries.sql
 *HR Tech | People Analytics | Software Development | HR Digital Transformation Analyst*  
 *Transforming Talent Management with Data & Technology*
 
-- **LinkedIn:** [linkedin.com/in/emmanuel-rodríguez-mendoza-aa638a220](https://www.linkedin.com/in/emmanuel-rodr%C3%ADguez-mendoza-aa638a220/)  
-- **GitHub:** [github.com/rodriguezmendozaemmanuel5](https://github.com/rodriguezmendozaemmanuel5)  
-- **Email:** [mendozarm2308@gmail.com](mailto:mendozarm2308@gmail.com)
+- **LinkedIn:** (https://www.linkedin.com/in/emmanuel-rodr%C3%ADguez-mendoza-aa638a220/)  
+- **GitHub:** (https://github.com/rodriguezmendozaemmanuel5)  
+- **Email:** (mendozarm2308@gmail.com)
 
 ---
 
