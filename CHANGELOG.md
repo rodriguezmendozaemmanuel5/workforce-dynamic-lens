@@ -227,4 +227,4 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 
 ## [Upcoming Enhancements] — Post-v1.0.0
 - Integración de pipeline CI/CD con GitHub Actions para ejecución automática de pruebas unitarias (`pytest`).
-- Conexión del modelo predictivo XGBoost como API REST contenerizada en Docker.
+- Automatización programada de actualización de vistas analíticas y reportes en PostgreSQL.
