@@ -30,7 +30,7 @@
 
 ## 2. Structured Case Studies (STAR Methodology)
 
-### 🌟 STAR Case 1: Retención de Talento Crítico en I+D & Costo de Vacancia
+### STAR Case 1: Retención de Talento Crítico en I+D & Costo de Vacancia
 * **Situation (Situación):**
   MedTech Global Solutions sufría renuncias imprevistas de ingenieros de software senior en I+D. Los registros de salida mostraban respuestas genéricas ("Desarrollo Profesional"), pero cada puesto vacante tardaba entre 60 y 90 días en cubrirse, retrasando en un 12% los lanzamientos de software clínico.
 * **Task (Tarea):**
@@ -44,7 +44,7 @@
 
 ---
 
-### 🌟 STAR Case 2: Diagnóstico de Ausentismo Crónico & Protección de SLAs en Soporte
+### STAR Case 2: Diagnóstico de Ausentismo Crónico & Protección de SLAs en Soporte
 * **Situation (Situación):**
   En el área de Operaciones Clínicas (soporte 24/7 a hospitales), se detectó un incremento de ausencias cortas imprevistas (1–2 días), detonando 40 incumplimientos en Acuerdos de Nivel de Servicio (SLAs) con penalizaciones por **$1.3M USD**.
 * **Task (Tarea):**
@@ -58,7 +58,7 @@
 
 ---
 
-### 🌟 STAR Case 3: Modelado Dimensional Kimball & Trazabilidad Histórica en SQL / DAX
+### STAR Case 3: Modelado Dimensional Kimball & Trazabilidad Histórica en SQL / DAX
 * **Situation (Situación):**
   Los datos de personal provenían de sistemas fragmentados y tablas planas, generando inconsistencias al calcular la evolución salarial histórica y duplicando el conteo de empleados activos.
 * **Task (Tarea):**
@@ -72,7 +72,7 @@
 
 ---
 
-### 🌟 STAR Case 4: Storytelling con Datos, Simulador What-If & Caso de Negocio (ROI)
+### STAR Case 4: Storytelling con Datos, Simulador What-If & Caso de Negocio (ROI)
 * **Situation (Situación):**
   La dirección de Recursos Humanos presentaba tradicionalmente reportes de satisfacción cualitativos que no lograban justificar presupuestos ante el CFO y la Dirección General.
 * **Task (Tarea):**

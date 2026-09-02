@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Resumen Ejecutivo del Proyecto
+## Resumen Ejecutivo del Proyecto
 
 **Workforce Dynamic Lens** es un proyecto integral de **People Analytics y Business Intelligence** diseñado para **MedTech Global Solutions**, una empresa multinacional del sector HealthTech con una dotación histórica de **4,500 colaboradores** y una fuerza laboral activa de **3,300 profesionales** en 5 países: México (34%), Colombia (20%), España (16%), Brasil (15%) y Alemania (14%).
 
@@ -37,7 +37,7 @@ El proyecto aborda el ciclo completo de análisis de datos de Recursos Humanos, 
 
 ---
 
-## 🏢 Problema de Negocio: MedTech Global Solutions
+## Problema de Negocio: MedTech Global Solutions
 
 MedTech Global Solutions enfrentaba pérdidas de rentabilidad y capacidad operativa explicadas por dos cuellos de botella en la gestión de su capital humano:
 
@@ -50,7 +50,7 @@ MedTech Global Solutions enfrentaba pérdidas de rentabilidad y capacidad operat
 
 ---
 
-## 🔄 Flujo Metodológico de People Analytics
+## Flujo Metodológico de People Analytics
 
 El proyecto sigue un flujo analítico estructurado de extremo a extremo:
 
@@ -78,7 +78,7 @@ flowchart LR
 
 ---
 
-## 📊 Suite de Dashboards Ejecutivos en Power BI
+## Suite de Dashboards Ejecutivos en Power BI
 
 El archivo de visualización ([`powerbi/People_Analytics_Executive_Suite_MedTech.pbix`](file:///e:/PROYECTOS%20PORTAFOLIO/Workforce%20Dynamic%20Lens/powerbi)) está diseñado con un enfoque ejecutivo para C-Suite, HRBPs y Líderes Operativos:
 
@@ -111,7 +111,7 @@ El archivo de visualización ([`powerbi/People_Analytics_Executive_Suite_MedTech
 
 ---
 
-## 💡 Hallazgos Principales de People Analytics & Plan de Acción
+## Hallazgos Principales de People Analytics & Plan de Acción
 
 A partir del reporte ejecutivo ([`docs/Business_Insights.md`](file:///e:/PROYECTOS%20PORTAFOLIO/Workforce%20Dynamic%20Lens/docs/Business_Insights.md)), se establecieron tres pilares estratégicos de intervención:
 
@@ -124,7 +124,7 @@ flowchart TD
 
 ---
 
-## 📐 Modelado Dimensional & Medidas DAX en Power BI
+## Modelado Dimensional & Medidas DAX en Power BI
 
 ### Modelo Dimensional en Estrella (Kimball)
 Diseñado en PostgreSQL y consumido en Power BI para optimizar el rendimiento y garantizar relaciones unidireccionales `1:N`:
@@ -147,7 +147,7 @@ Organizadas en carpetas de exhibición (*Display Folders*):
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 | Área | Herramientas | Rol en el Proyecto |
 | :--- | :--- | :--- |
@@ -160,7 +160,7 @@ Organizadas en carpetas de exhibición (*Display Folders*):
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```text
 Workforce Dynamic Lens/
@@ -176,7 +176,7 @@ Workforce Dynamic Lens/
 ├── 05_Tasks.md                    # Backlog de tareas de desarrollo y QA
 │
 ├── docs/                          # Documentación ejecutiva, técnica y de negocio
-│   ├── Business_Insights.md       # 📄 INFORME OFICIAL DE INSIGHTS & IMPACTO P&L ($6.44M)
+│   ├── Business_Insights.md       # INFORME OFICIAL DE INSIGHTS & IMPACTO P&L ($6.44M)
 │   ├── Business_Case.md           # Justificación financiera, presupuesto y ROI
 │   ├── business_requirements.md   # BRS con preguntas de negocio y reglas de dominio
 │   ├── data_dictionary.md         # Contrato de datos y clasificación PII / GDPR
@@ -201,7 +201,7 @@ Workforce Dynamic Lens/
 
 ---
 
-## 🚀 Guía Rápida para Explorar el Proyecto
+## Guía Rápida para Explorar el Proyecto
 
 ### 1. Explorar los Dashboards en Power BI
 * Abrir el archivo [`powerbi/People_Analytics_Executive_Suite_MedTech.pbix`](file:///e:/PROYECTOS%20PORTAFOLIO/Workforce%20Dynamic%20Lens/powerbi) en **Power BI Desktop** para navegar por las tres pantallas interactivas, los filtros por país/departamento y el simulador *What-If*.
@@ -226,7 +226,7 @@ psql -U postgres -d workforce_db -f sql/analytics/14_validation_queries.sql
 
 ---
 
-## 📍 Estado de Avance del Proyecto
+## Estado de Avance del Proyecto
 
 | Fase de Desarrollo | Release | Estado | Entregables Clave |
 | :--- | :--- | :--- | :--- |
@@ -240,16 +240,18 @@ psql -U postgres -d workforce_db -f sql/analytics/14_validation_queries.sql
 
 ---
 
-## 👤 Autor & Contacto
+## Autor & Contacto
 
 **Emmanuel Rodríguez Mendoza**  
-*Psicólogo Organizacional | People Analytics Specialist | HR Data Analyst | Business Intelligence*  
+*HR Tech | People Analytics | Software Development | HR Digital Transformation Analyst*  
+*Transforming Talent Management with Data & Technology*
+
 - **LinkedIn:** [linkedin.com/in/emmanuel-rodríguez-mendoza-aa638a220](https://www.linkedin.com/in/emmanuel-rodr%C3%ADguez-mendoza-aa638a220/)  
 - **GitHub:** [github.com/rodriguezmendozaemmanuel5](https://github.com/rodriguezmendozaemmanuel5)  
 - **Email:** [mendozarm2308@gmail.com](mailto:mendozarm2308@gmail.com)
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo [`LICENSE.md`](file:///e:/PROYECTOS%20PORTAFOLIO/Workforce%20Dynamic%20Lens/LICENSE.md) para más detalles.

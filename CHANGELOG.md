@@ -15,7 +15,7 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 ---
 
 ## [v0.9.0] — 2026-08-26
-### 🛡️ Quality Assurance, Testing & Performance Optimization
+### Quality Assurance, Testing & Performance Optimization
 - **E2E Consistency & Audit**: Conducted full cross-validation between PostgreSQL DW tables (`dim_employees`, `fact_terminations`, `fact_attendance_logs`, `fact_sla_events`), SQL analytical views (`sql/analytics/13_views.sql`), DAX measures in Power BI (`.pbix`), and documentation contracts (`KPIs_Definition.md`, `Business_Insights.md`).
 - **Data Integrity & Traceability**: Audited all 7 business rule validation tests in `sql/analytics/14_validation_queries.sql` with 0 constraint or orphan record violations.
 - **DAX & Model Optimization**: Verified display folders, explicit measure references, formatting, and performance across all 3 interactive dashboard screens.
@@ -24,7 +24,7 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 ---
 
 ## [v0.8.0] — 2026-08-20
-### 📊 Business Intelligence Suite & Executive Storytelling
+### Business Intelligence Suite & Executive Storytelling
 - **Power BI Executive Model (`.pbix`)**: Completed semantic dimensional model connecting to PostgreSQL `people_analytics` star schema (`dim_employees`, `dim_departments`, `dim_positions`, `dim_date`, `dim_salary_benchmarks`, `fact_attendance_logs`, `fact_terminations`, `fact_sla_events`).
 - **Interactive Executive Dashboards (3 Views)**:
   - *Screen 1 - Executive HR Overview & Demographics*: Macro-level headcount tracking (3,300 active / 1,200 historical exits), geographic distribution across 5 countries, gender equity and annualized turnover trends.
@@ -36,7 +36,7 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 ---
 
 ## [v0.7.0] — 2026-08-14
-### 🔴 Critical Fixes & System Reconciliation
+### Critical Fixes & System Reconciliation
 - **Termination Reconciliation**: Implemented formal reconciliation between `fact_terminations` and `dim_employees`. Terminated employees are now correctly marked `is_active = FALSE` on their current SCD2 row (R01, R04, R06, R07).
 - **Generation Pipeline Reordering**: Reordered generation pipeline: Dimensions → Employees → Terminations → Reconciliation → Attendance → SLA Events → Date Dimension → Validator Gate → CSV Export.
 - **Ghost Attendance Eliminated**: Vectorized `attendance_generator.py` with per-employee active date bounds `[max(start_date, hire_date), min(end_date, termination_date)]`, eliminating 305,483 ghost attendance records post-offboarding (R11/R15).
@@ -46,14 +46,14 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
   - Updated `chk_trm_date_min` in `11_constraints.sql` to `CHECK (termination_date >= '2010-01-01')`.
   - Aligned `chk_att_id_format` pattern to `^ATT_[0-9]{12,16}$` (`ATT_{YYYYMMDD}{counter:06d}`).
 
-### 🟡 High Severity Fixes & Analytics Alignment
+### High Severity Fixes & Analytics Alignment
 - **View Updates**:
   - `sql/analytics/15_view_monthly_headcount_snapshot.sql`: Added `LEFT JOIN fact_terminations` to exclude offboarded employees from post-termination monthly active headcount snapshots.
   - `sql/analytics/13_views.sql`: Enforced `e.is_current_row = TRUE` across analytical views to prevent historical SCD2 duplication (R13).
 - **Validation SQL Suite**: Added Test Suite 5 in `sql/analytics/14_validation_queries.sql` with 7 business rule consistency queries. **ALL 7 CHECKS RETURNED 0 VIOLATIONS ON LIVE POSTGRESQL**.
 - **KPI Catalog Contract**: Updated `docs/KPIs_Definition.md` removing hardcoded `4500.0` denominators, enforcing `employee_sk` joins, and adding `is_current_row = TRUE` filters.
 
-### 🟢 End-to-End Validation & Final Metrics
+### End-to-End Validation & Final Metrics
 - **Synthetic Dataset**:
   - `dim_employees`: 4,933 rows (4,500 total unique employees, 3,300 active current, 1,200 inactive current, 433 historical SCD2 rows).
   - `fact_terminations`: 1,200 offboarding events (100% loaded into PostgreSQL).
@@ -63,7 +63,7 @@ This project follows the **Keep a Changelog** format and **Semantic Versioning (
 - **ETL Execution**: 100% successful dry-run and full PostgreSQL database load (`python -m python.etl.pipeline --execute` completed in 328.9s with 0 errors).
 - **PostgreSQL Database State**: All foreign keys, unique constraints, and business rules pass with 100% clean integrity.
 
-### 📝 Documentation
+### Documentation
 - Updated `docs/decisions_log.md` with DEC-015 (Termination Reconciliation) and DEC-016 (Date Range & Constraint Alignment).
 - Updated `CHANGELOG.md` with v0.7.0 final execution baseline.
 
